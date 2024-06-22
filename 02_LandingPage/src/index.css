@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@layer base {
+    h3 {
+        @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+    }
+    h5 {
+        @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+    }
+}
+
+.section_container {
+    @apply mx-auto max-w-6xl px-10 text-center;
+}
+
+.section_content {
+    @apply mx-auto mb-10 max-w-3xl text-2xl text-grayishBlue;
+}
+
+.btn_container {
+    @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-x-4 md:space-y-0;
+}
