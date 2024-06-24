@@ -1,0 +1,13 @@
+import Creation from "./components/Creation";
+import Feature from "./components/Feature";
+import Hero from "./components/Hero";
+
+export default function App() {
+	return (
+		<>
+			<Hero />
+			<Feature />;
+			<Creation />
+		</>
+	);
+}
